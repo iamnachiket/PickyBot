@@ -359,7 +359,9 @@ def main():
 
 	#print(bsp)
 
-	checker(device,pepl,bsp,xmax,ymax,biosplitsml,checker)
+	checker(device,pepl,bsp,xmax,ymax,biosplitsml,reason)
+		
+
 
 if __name__=='__main__':
 	while(1):
